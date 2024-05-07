@@ -2,9 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+h2 {
+    margin: 1rem;
+    padding: 0.5rem;
+    color: blue;
+    font-weight: 600;
+    border-bottom: 2px solid gray;
+}
+
 input,
 button {
     border: 1px solid black;
+}
+
+input {
+    padding: 5px;
 }
 
 button {
@@ -13,5 +25,6 @@ button {
 }
 
 p {
+    min-height: 24px;
     color: red;
 }
