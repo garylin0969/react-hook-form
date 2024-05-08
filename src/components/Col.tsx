@@ -7,7 +7,7 @@ interface ColProps {
 }
 
 const Col: FC<ColProps> = ({ className, children }) => {
-    return <div className={clsx('m-2', className)}>{children}</div>;
+    return <div className={clsx('m-2 min-h-16', className)}>{children}</div>;
 };
 
 export default Col;
